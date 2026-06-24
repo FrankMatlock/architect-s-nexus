@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, Filter } from "lucide-react";
 import { base44 } from "@/api/base44Client";
 import SectionHeader from "@/components/ui/SectionHeader";
+import ProjectComments from "@/components/vault/ProjectComments";
 
 const categories = ["All", "Development", "Design", "Video", "Network", "AI"];
 
@@ -153,7 +154,7 @@ export default function Vault() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-void/95 backdrop-blur-xl flex items-center justify-center p-6"
+            className="fixed inset-0 z-50 bg-void/95 backdrop-blur-xl flex items-center justify-center p-6 overflow-y-auto"
             onClick={() => setLightbox(null)}
           >
             <motion.div
@@ -212,6 +213,7 @@ export default function Vault() {
                     ))}
                   </div>
                 )}
+                <ProjectComments projectId={lightbox.id} />
               </div>
             </motion.div>
           </motion.div>

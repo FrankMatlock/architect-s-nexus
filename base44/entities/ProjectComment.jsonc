@@ -1,0 +1,27 @@
+{
+  "name": "ProjectComment",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "description": "ID of the portfolio project"
+    },
+    "author_name": {
+      "type": "string",
+      "description": "Commenter's name"
+    },
+    "author_email": {
+      "type": "string",
+      "description": "Commenter's email"
+    },
+    "message": {
+      "type": "string",
+      "description": "Comment or question"
+    }
+  },
+  "required": [
+    "project_id",
+    "author_name",
+    "message"
+  ]
+}
