@@ -10,6 +10,7 @@ const navItems = [
   { id: "04", label: "THE STUDIO", path: "/studio" },
   { id: "05", label: "THE VAULT", path: "/vault" },
   { id: "06", label: "UPLINK", path: "/uplink" },
+  { id: "⚙", label: "ADMIN", path: "/admin" },
 ];
 
 export default function NexusNav() {

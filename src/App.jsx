@@ -15,6 +15,7 @@ import Capabilities from '@/pages/Capabilities';
 import Studio from '@/pages/Studio';
 import Vault from '@/pages/Vault';
 import Uplink from '@/pages/Uplink';
+import Admin from '@/pages/Admin';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -48,6 +49,7 @@ const AuthenticatedApp = () => {
         <Route path="/studio" element={<Studio />} />
         <Route path="/vault" element={<Vault />} />
         <Route path="/uplink" element={<Uplink />} />
+        <Route path="/admin" element={<Admin />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />
     </Routes>
