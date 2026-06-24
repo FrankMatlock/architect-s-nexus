@@ -59,30 +59,34 @@ module.exports = {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
-  			}
+  			},
+        void: '#05070A',
+        cyan: {
+          DEFAULT: '#00F0FF',
+          dim: '#00F0FF88',
+          glow: '#00F0FF33',
+        },
+        gold: {
+          DEFAULT: '#FFB800',
+          dim: '#FFB80088',
+          glow: '#FFB80033',
+        },
+        logic: '#1A202C',
   		},
   		fontFamily: {
-  			heading: ['var(--font-heading)'],
-  			body: ['var(--font-body)'],
-  			display: ['var(--font-display)'],
-  			mono: ['var(--font-mono)']
+  			heading: ['Syne', 'var(--font-heading)'],
+  			body: ['Inter', 'var(--font-body)'],
+  			display: ['Syne', 'var(--font-display)'],
+  			mono: ['JetBrains Mono', 'var(--font-mono)']
   		},
   		keyframes: {
   			'accordion-down': {
-  				from: {
-  					height: '0'
-  				},
-  				to: {
-  					height: 'var(--radix-accordion-content-height)'
-  				}
+  				from: { height: '0' },
+  				to: { height: 'var(--radix-accordion-content-height)' }
   			},
   			'accordion-up': {
-  				from: {
-  					height: 'var(--radix-accordion-content-height)'
-  				},
-  				to: {
-  					height: '0'
-  				}
+  				from: { height: 'var(--radix-accordion-content-height)' },
+  				to: { height: '0' }
   			}
   		},
   		animation: {
