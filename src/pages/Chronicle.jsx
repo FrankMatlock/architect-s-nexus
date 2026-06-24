@@ -7,34 +7,40 @@ const chronicleImage = "https://media.base44.com/images/public/6a3b81a1c21bbff4a
 
 const timelineData = [
   {
-    era: "1999 – 2005",
-    title: "The Foundation",
-    desc: "The early web era. Hand-coding HTML, CSS, and server-side scripts. Building the first content management systems when the term barely existed. Learning the architecture of networks from the ground up — TCP/IP, DNS, and the infrastructure that holds the internet together.",
-    tech: ["HTML", "CSS", "PHP", "MySQL", "Networking"],
+    era: "1988 – 2000",
+    title: "Micro Data Systems of NC — Founder & President",
+    desc: "Founded and ran a technology reseller and consultancy for nearly 13 years. Guided all sales, marketing, and solution deployment activities while managing up to 10 employees across sales, engineering, and operations. Served as an outsourced IT group for numerous organizations — designing and publishing web sites with HTML, ASP, and PERL, and deploying full network and system solutions.",
+    tech: ["HTML", "ASP", "PERL", "Network Design", "Systems Integration", "Web Publishing"],
   },
   {
-    era: "2005 – 2010",
-    title: "The Expansion",
-    desc: "Web 2.0 transformed everything. Dynamic applications, AJAX-driven interfaces, and the rise of content-rich platforms. Mastered the Adobe Creative Suite — Photoshop, Illustrator, InDesign — bridging the gap between code and design. Built CMS platforms serving thousands of users.",
-    tech: ["JavaScript", "jQuery", "Adobe CS", "WordPress", "Drupal"],
+    era: "2000 – 2003",
+    title: "Stellent, Inc. — Systems Engineer & Professional Services Consultant",
+    desc: "Delivered Content Management System solutions to Fortune 500 companies and government organizations. Developed proposals, led pre-sales technical demonstrations, and delivered full implementations with custom-code solutions. Collaborated with Regional Account Managers and partners, presenting to Senior Executives and leading teleconferences with clients and developers.",
+    tech: ["CMS", "Stellent", "Pre-Sales Engineering", "Custom Development", "Enterprise Solutions"],
   },
   {
-    era: "2010 – 2016",
-    title: "The Convergence",
-    desc: "Mobile-first design became non-negotiable. Responsive frameworks, video production with Premiere and After Effects, and audio mastery through Audition. The creative and technical disciplines merged into a unified practice — every project demanded both.",
-    tech: ["Responsive Design", "Premiere Pro", "After Effects", "Audition", "Node.js"],
+    era: "2004 – 2005",
+    title: "Managed Data Systems — Principal ECM Consultant",
+    desc: "Delivered enterprise content, document, and records management solutions. Conducted business and system analysis, produced detailed solution proposals, and partnered with software and hardware vendors to design complete client solutions. Balanced new business development with ongoing client relationships.",
+    tech: ["ECM", "Document Management", "Records Management", "Solution Architecture", "Vendor Partnership"],
   },
   {
-    era: "2016 – 2021",
-    title: "The Modern Stack",
-    desc: "The component era. React, modern JavaScript, and cloud-native architectures. Building scalable web applications with sophisticated front-end interfaces and robust back-end systems. Network infrastructure matured into DevOps-aware, containerized deployments.",
-    tech: ["React", "Cloud Architecture", "DevOps", "REST APIs", "Modern CSS"],
+    era: "2005 – 2007",
+    title: "FatWire Software — Senior Pre-Sales Field Engineer",
+    desc: "Built and delivered high-level technical pre-sales presentations across verticals including Healthcare, Travel, Financial, and Sun Microsystems. Coordinated Sales and Sales Engineering teams, hosted web-based education and sales events, and actively supported marketing through trade show attendance and partner education programs.",
+    tech: ["FatWire CMS", "Pre-Sales", "Web-Based Events", "Solution Selling", "Trade Shows"],
   },
   {
-    era: "2021 – Present",
-    title: "The AI Frontier",
-    desc: "The paradigm shift. AI-assisted development with platforms like Base44 has compressed timelines that once took months into weeks. Generative tools augment the creative process — not replacing craftsmanship, but amplifying it. 27 years of pattern recognition meets machine intelligence.",
-    tech: ["AI Workflows", "Base44", "Generative AI", "LLM Integration", "Automation"],
+    era: "2007 – Present",
+    title: "Triad Computer Support — Principal EDM/CMS Consultant & Web Designer",
+    desc: "Designing and developing attractive, persuasive websites tailored to each client's technical requirements. Diagnosing and resolving Windows software and PC hardware issues. Delivering individualized solutions through direct client interaction, and instructing individuals and groups in basic and advanced computer use — now augmented with AI-driven development workflows.",
+    tech: ["Web Design", "CMS", "EDM", "Client Consulting", "PC Support", "AI Workflows"],
+  },
+  {
+    era: "2010 – 2023",
+    title: "Diesel Equipment Company — Contractor",
+    desc: "Designed a new website and custom shopping cart system for a long-standing client engagement spanning over 13 years. Also responsible for maintaining their Ubuntu web server — keeping the infrastructure stable, secure, and performant over the duration of the contract.",
+    tech: ["Web Design", "E-Commerce", "Shopping Cart", "Ubuntu Server", "Linux Administration"],
   },
 ];
 
@@ -119,13 +125,13 @@ export default function Chronicle() {
             </h3>
             <div className="space-y-4 text-base text-muted-foreground leading-relaxed">
               <p>
-                I am the bridge between systems and stories. For 27 years, I've operated at the intersection where low-level network logic meets high-level visual design — the rare convergence point where a server configuration and a motion graphic share the same creative intent.
+                I started Micro Data Systems of NC in 1988 — before "web developer" was a job title — building networks, publishing websites in raw HTML and PERL, and managing the full technology stack for clients who needed an outsourced IT team they could trust.
               </p>
               <p>
-                My career has never followed a single track. I've built content management systems from the ground up, designed corporate identities in Illustrator, produced broadcast-quality video in Premiere, and architected network infrastructures that run mission-critical operations. Each discipline informs the others.
+                That foundation led to enterprise work: Systems Engineer at Stellent, ECM Consultant at Managed Data Systems, Senior Pre-Sales Field Engineer at FatWire Software. I've presented CMS solutions to Fortune 500 executives, closed deals across Healthcare, Financial, and Government sectors, and built the kind of technical credibility that only comes from doing the work — not just selling it.
               </p>
               <p>
-                Today, I operate at the frontier of AI-assisted development. Platforms like Base44 don't replace my expertise — they amplify 27 years of pattern recognition, letting me deliver in days what once required months. The tools change. The understanding of how systems think does not.
+                Since 2007, Triad Computer Support has been my primary vehicle — consulting, designing, and deploying web and technology solutions for clients ranging from small businesses to long-term contracts like Diesel Equipment Company's e-commerce platform and Linux server infrastructure. Today, AI-augmented development amplifies everything those years built.
               </p>
             </div>
           </GlassCard>
