@@ -68,7 +68,7 @@ export default function HeroSection({ heroImage }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4, duration: 0.8 }}
-          className="md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-10 text-lg [font-family:'Syne',_var(--font-heading)]">
+          className="md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-10 text-lg [font-family:'JetBrains_Mono',_var(--font-mono)] font-semibold">
           
           27 years of digital architecture. From the first line of code to the future of AI‑assisted design — building robust systems, crafting visual experiences, and pioneering next‑generation workflows.
         </motion.p>
